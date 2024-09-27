@@ -1,0 +1,139 @@
+*{
+  font-family: 'Rubik', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: .2s linear;
+  text-transform: capitalize;
+}
+.navbar-brand li span {
+  font-size: 30px;
+}
+
+.input_naw {
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 50px;
+}
+::placeholder {
+  color: aliceblue;
+  margin-left: 50px;
+}
+.navbar {
+  margin-top: -5px;
+  width: 1472px;
+}
+
+.c_div {
+  margin-top:-10px;
+  background-color: blue;
+  height: 430px;
+  display: inline-block;
+  width: 1472px;
+}
+
+.c_div p {
+  margin-top: 5px;
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+}
+.c_div h1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  color: aliceblue;
+}
+
+/* From Uiverse.io by Gaurav-WebDev */ 
+.button {
+  height: 40px;
+  width: 180px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: all 0.1s ease-in-out;
+  margin-left: 100px;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-size: 20px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.1s ease-in-out;
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+
+.mmm {
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  box-shadow: 1px 1px 1px rgb(151, 151, 151);
+}
+
+.mmm img {
+  margin-left: 120px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.mmm a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.mmm a:hover {
+  text-decoration: underline;
+}
+
+.mmm p {
+  margin-left: 180px;
+  margin-top: -20px;
+}
+
+.free {
+  margin-left: 330px;
+  margin-top: -55px;
+}
+
+.free p {
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: -29px;
+}
+
+.fre {
+  margin-left: 470px;
+  margin-top: -42px;
+}
+
+.star {
+  color: yellow;
+  margin-left: 1300px;
+  font-size: 21px;
+  margin-top: -43px;
+}
+
+.green {
+  margin-left: 190px;
+  margin-top: 100px;
+
+}
